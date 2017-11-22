@@ -395,6 +395,7 @@ body, html {
     top: 10%; }
   #main form {
     position: relative;
+    display: inline;
     top: 20%;
     left: 37%; }
     #main form .form-control {
