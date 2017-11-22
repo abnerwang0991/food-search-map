@@ -1,0 +1,40 @@
+@import "reset";
+
+body,html {
+	height: 100%;
+	font-family: Microsoft JhengHei;
+}
+
+#main {
+	height:100%;
+	background-image: url("https://i.imgur.com/yMska7O.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: Microsoft JhengHei;
+  h1 {
+  	font-size: 26px;
+  	color: #fff;
+  	text-align: center;
+  	margin: 0;
+  	position: relative;
+  	top: 10%;
+  }
+  form {
+  	position: relative;
+  	top: 20%;
+  	left: 37%;
+  	.form-control {
+  		width: 300px;
+  	}
+  }
+  #map {
+  	width: 50%;
+  	height: 50%;
+  	margin: auto;
+  	position: relative;
+  	top: 30%;
+  }
+}

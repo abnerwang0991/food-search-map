@@ -7,7 +7,7 @@ $(function() {
     })
       .done(function(data) {
         var markers = [];
-        deleteMarkers()
+        deleteMarkers();
         $.each(data, function(i, e) {
           if($("#dist :selected").attr("data-i") == e.Zipcode) {
             var latLng = new google.maps.LatLng(e.Py, e.Px);
