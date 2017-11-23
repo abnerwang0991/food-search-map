@@ -394,11 +394,11 @@ body, html {
     position: relative;
     top: 10%; }
   #main form {
-    position: relative;
+    position: absolute;
     display: inline;
     top: 20%;
     left: 37%; }
-    #main form .form-control {
+    #main form #dist {
       width: 300px; }
   #main #map {
     width: 50%;

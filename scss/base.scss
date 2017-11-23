@@ -23,11 +23,11 @@ body,html {
   	top: 10%;
   }
   form {
-  	position: relative;
-  	display: inline;
-  	top: 20%;
-  	left: 37%;
-  	.form-control {
+  	position: absolute;
+    display: inline;
+    top: 20%;
+    left: 37%;
+  	#dist {
   		width: 300px;
   	}
   }
