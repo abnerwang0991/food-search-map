@@ -1,4 +1,5 @@
 $(function() {
+  var markers = [];
   $("#search").click(function() {
     $.ajax({
       method: "GET",
@@ -6,7 +7,6 @@ $(function() {
       dataType: "json"
     })
       .done(function(data) {
-        var markers = [];
         deleteMarkers();
         $.each(data, function(i, e) {
           if($("#dist :selected").attr("data-i") == e.Zipcode) {
